@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MsBuild", "MsBuild", "{0A987F0A-80D7-466D-94D3-0E087A6F29D2}"
+	ProjectSection(SolutionItems) = preProject
+		MsBuild\CodeQuality.targets = MsBuild\CodeQuality.targets
+		MsBuild\Common.targets = MsBuild\Common.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6474E804-2997-4919-981C-E372517FFAB8}"
+	ProjectSection(SolutionItems) = preProject
+		License.txt = License.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sources", "Sources", "{058B2FA1-EEDF-4E76-82AE-0A0F12AFF695}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{C24EF9EA-2FAB-4939-8903-11855A88DE42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeotechSolutions.Foundation", "Sources\NeotechSolutions.Foundation\NeotechSolutions.Foundation.csproj", "{706656A2-5D98-4AE1-BEE7-2895453C925E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeotechSolutions.Foundation_UnitTests", "Tests\NeotechSolutions.Foundation_UnitTests\NeotechSolutions.Foundation_UnitTests.csproj", "{6F660FF7-4427-4170-BD41-92AFF75D2BBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{19646556-1BEB-4B60-9E6A-29EFB4BEF2CA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{706656A2-5D98-4AE1-BEE7-2895453C925E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{706656A2-5D98-4AE1-BEE7-2895453C925E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{706656A2-5D98-4AE1-BEE7-2895453C925E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{706656A2-5D98-4AE1-BEE7-2895453C925E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F660FF7-4427-4170-BD41-92AFF75D2BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F660FF7-4427-4170-BD41-92AFF75D2BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F660FF7-4427-4170-BD41-92AFF75D2BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F660FF7-4427-4170-BD41-92AFF75D2BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{706656A2-5D98-4AE1-BEE7-2895453C925E} = {058B2FA1-EEDF-4E76-82AE-0A0F12AFF695}
+		{6F660FF7-4427-4170-BD41-92AFF75D2BBE} = {C24EF9EA-2FAB-4939-8903-11855A88DE42}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
