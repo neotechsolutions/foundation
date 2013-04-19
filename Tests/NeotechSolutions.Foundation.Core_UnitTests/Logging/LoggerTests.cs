@@ -6,14 +6,14 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace NeotechSolutions.Foundation_UnitTests.Logging
+namespace NeotechSolutions.Foundation.Core_UnitTests.Logging
 {
     using System;
     using System.Globalization;
     using System.Reflection;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using NeotechSolutions.Foundation.Injection;
-    using NeotechSolutions.Foundation.Logging;
+    using NeotechSolutions.Foundation.Core.Injection;
+    using NeotechSolutions.Foundation.Core.Logging;
     using TypeMock.ArrangeActAssert;
 
     /// <summary>
@@ -46,7 +46,6 @@ namespace NeotechSolutions.Foundation_UnitTests.Logging
         {
             ServiceLocator.Initialize();
         }
-
 
         /// <summary>
         /// Initializes the fake logger.

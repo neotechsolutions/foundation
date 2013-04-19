@@ -6,15 +6,15 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace NeotechSolutions.Foundation_UnitTests.Configuration
+namespace NeotechSolutions.Foundation.Core_UnitTests.Configuration
 {
     using System.Collections.Specialized;
     using System.Configuration;
     using Microsoft.VisualStudio.TestTools.UnitTesting;
-    using NeotechSolutions.Foundation.Configuration;
-    using NeotechSolutions.Foundation.Injection;
+    using NeotechSolutions.Foundation.Core.Configuration;
+    using NeotechSolutions.Foundation.Core.Injection;
     using TypeMock.ArrangeActAssert;
-    using NSConfigurationManager = NeotechSolutions.Foundation.Configuration.ConfigurationManager;
+    using NSConfigurationManager = NeotechSolutions.Foundation.Core.Configuration.ConfigurationManager;
 
     /// <summary>
     /// Test class for <see cref="NeotechSolutions.Foundation.Configuration.ConfigurationManager"/>.

@@ -6,7 +6,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace NeotechSolutions.Foundation.Configuration
+namespace NeotechSolutions.Foundation.Core.Configuration
 {
     using System.Configuration;
 

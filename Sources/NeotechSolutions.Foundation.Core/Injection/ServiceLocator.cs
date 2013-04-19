@@ -6,7 +6,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace NeotechSolutions.Foundation.Injection
+namespace NeotechSolutions.Foundation.Core.Injection
 {
     using System.Collections.Generic;
     using System.Diagnostics.Contracts;
@@ -72,6 +72,19 @@ namespace NeotechSolutions.Foundation.Injection
         public static T Resolve<T>()
         {
             return container.Resolve<T>();
+        }
+
+        /// <summary>
+        /// Resolve an instance of the requested type with the given name from the container.
+        /// </summary>
+        /// <typeparam name="T">Type to resolve.</typeparam>
+        /// <param name="name">The name of the object to resolve.</param>
+        /// <returns>
+        /// The retrieved object.
+        /// </returns>
+        public static T Resolve<T>(string name)
+        {
+            return container.Resolve<T>(name);
         }
 
         /// <summary>

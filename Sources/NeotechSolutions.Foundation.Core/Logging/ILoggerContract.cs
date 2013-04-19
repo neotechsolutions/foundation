@@ -6,7 +6,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace NeotechSolutions.Foundation.Logging
+namespace NeotechSolutions.Foundation.Core.Logging
 {
     using System;
     using System.Diagnostics.Contracts;

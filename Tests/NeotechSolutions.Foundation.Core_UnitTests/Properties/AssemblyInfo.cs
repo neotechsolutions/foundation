@@ -13,11 +13,11 @@ using TypeMock.ArrangeActAssert;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("NeotechSolutions.Foundation_UnitTests")]
+[assembly: AssemblyTitle("NeotechSolutions.Foundation.Core_UnitTests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Neotech Solutions")]
-[assembly: AssemblyProduct("NeotechSolutions.Foundation_UnitTests")]
+[assembly: AssemblyProduct("NeotechSolutions.Foundation")]
 [assembly: AssemblyCopyright("Copyright © 2013 Neotech Solutions")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

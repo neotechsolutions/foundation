@@ -6,7 +6,7 @@
 // </copyright>
 // -----------------------------------------------------------------------
 
-namespace NeotechSolutions.Foundation.Configuration
+namespace NeotechSolutions.Foundation.Core.Configuration
 {
     using System.Collections;
     using System.Collections.Concurrent;
@@ -14,7 +14,7 @@ namespace NeotechSolutions.Foundation.Configuration
     using System.Collections.Specialized;
     using System.Configuration;
     using System.Linq;
-    using NeotechSolutions.Foundation.Injection;
+    using NeotechSolutions.Foundation.Core.Injection;
 
     /// <summary>
     /// A manager for application configuration.
